@@ -67,10 +67,10 @@ const Modal = ({ isvisable, onClose }: Props) => {
                                     <p style={{color: "#899893"}}>You have 1 business day to accept the sale.</p>
                                     <p style={{color: "#899893"}}>If you do not accept, it will automatically be rejected.</p>
                                     <div className='align-bottom pt-8'>
-                                        <button onClick={acceptOffer} className='w-full font-semibold rounded-full text-center py-1 lg:py-4 text-white' id="closer" style={{background: "#1a3a32"}}>Accept sale</button>
+                                        <button onClick={acceptOffer} className='w-full font-semibold rounded-full text-center py-1 lg:py-4 text-white' style={{background: "#1a3a32"}}>Accept sale</button>
                                     </div>
                                     <div className='align-bottom pt-8'>
-                                        <button onClick={declineOffer} className='w-full font-semibold rounded-full text-center py-1 lg:py-4' id="closer" style={{color: "#1a3a32"}}>Reject sale</button>
+                                        <button onClick={declineOffer} className='w-full font-semibold rounded-full text-center py-1 lg:py-4'style={{color: "#1a3a32"}}>Reject sale</button>
                                     </div>
                                 </div>
                                 <div className='p-10'>
