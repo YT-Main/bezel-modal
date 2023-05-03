@@ -59,22 +59,22 @@ const Modal = ({ isvisable, onClose }: Props) => {
                                     </svg>
                                 </button>
                             </div>
-                            <div className='flex'>
-                                <div className='py-28 px-16'>
+                            <div className='lg:flex'>
+                                <div className='py-4 lg:py-28 px-16'>
                                     {/* Interactove area (to accept or reject offer) */}
                                     <h3 className='font-medium' style={{color: "#899893"}}>CONGRATS!</h3>
-                                    <h1 className='py-8 text-4xl font-medium' style={{color: "#365249"}}>Your Watch Is Sold!</h1>
+                                    <h1 className='ly-4 lg:py-8 lg:text-4xl font-medium' style={{color: "#365249"}}>Your Watch Is Sold!</h1>
                                     <p style={{color: "#899893"}}>You have 1 business day to accept the sale.</p>
                                     <p style={{color: "#899893"}}>If you do not accept, it will automatically be rejected.</p>
                                     <div className='align-bottom pt-8'>
-                                        <button onClick={acceptOffer} className='w-full font-semibold rounded-full text-center py-4 text-white' id="closer" style={{background: "#1a3a32"}}>Accept sale</button>
+                                        <button onClick={acceptOffer} className='w-full font-semibold rounded-full text-center py-1 lg:py-4 text-white' id="closer" style={{background: "#1a3a32"}}>Accept sale</button>
                                     </div>
                                     <div className='align-bottom pt-8'>
-                                        <button onClick={declineOffer} className='w-full font-semibold rounded-full text-center py-4' id="closer" style={{color: "#1a3a32"}}>Reject sale</button>
+                                        <button onClick={declineOffer} className='w-full font-semibold rounded-full text-center py-1 lg:py-4' id="closer" style={{color: "#1a3a32"}}>Reject sale</button>
                                     </div>
                                 </div>
                                 <div className='p-10'>
-                                    <div className='rounded-xl px-8 py-12 w-[450px]' style={{background: "#f6f4f0", borderRadius: "30px"}}>
+                                    <div className='rounded-xl px-8 py-4 lg:py-12 lg:w-[450px]' style={{background: "#f6f4f0", borderRadius: "30px"}}>
                                         <hr className=" rounded h-0.5 w-full my-3" style={{background: "#dbdad7"}}/>
                                         {/* Main Listing */}
                                         <div className='flex justify-between'>
